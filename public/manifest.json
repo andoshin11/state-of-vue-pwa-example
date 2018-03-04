@@ -1,6 +1,6 @@
 {
-  "name": "spa",
-  "short_name": "spa",
+  "name": "State of Vue",
+  "short_name": "SoV",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
