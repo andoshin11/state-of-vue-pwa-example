@@ -1,4 +1,6 @@
-This is an example project made @[PWAもくもく会](https://moku-morning.connpass.com/event/80836/)
+This is an example project made @[PWAもくもく会 #1](https://moku-morning.connpass.com/event/80836/) 
+
+[DEMO](https://compassionate-jones-633505.netlify.com/)
 
 # What is State of Vue
 State of Vue is a Progressive Web Application boilerplated with vue-cli.
