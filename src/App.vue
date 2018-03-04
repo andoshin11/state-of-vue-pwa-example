@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
     </div> -->
     <router-link to="/" class="title">State of Vue</router-link>
+    <a href="https://github.com/andoshin11/state-of-vue-pwa-example" target="_blank">GitHub Link</a>
     <router-view/>
   </div>
 </template>
@@ -37,6 +38,7 @@
   transition: 0.3s;
   text-decoration: none;
   font-weight: bold;
+  display: block;
 }
 
 .title:hover {
