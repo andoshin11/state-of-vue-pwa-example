@@ -38,18 +38,25 @@ export default Vue.extend({
   padding: 0 20px;
   transition: 0.3s;
   cursor: pointer;
+  overflow: hidden;
   &:hover {
     opacity: 0.6;
   }
   &__name {
     display: inline-block;
     width: 60%;
+    float: left;
     text-align: left;
   }
   &__stars {
     display: inline-block;
     width: 40%;
     text-align: right;
+  }
+}
+@media (max-width: 768px) {
+  .repo {
+    font-size: 14px;
   }
 }
 </style>

@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-    <h1 class="title">State of Vue</h1>
+    <router-link to="/" class="title">State of Vue</router-link>
     <router-view/>
   </div>
 </template>
@@ -32,6 +32,14 @@
 }
 
 .title {
-  fontsize: 5rem;
+  font-size: 2em;
+  color: black;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title:hover {
+  opacity: 0.6;
 }
 </style>
